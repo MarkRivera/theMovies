@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Search for your favorite movie made easy...
+    </title>
+    <meta charset="utf-8">
+    <meta name="description" content="BoxOffice Search is a fun and easy way to find your favorite movies online."/>
+    <meta name="keywords" content="movies, search, ratings, poster, find, box, office, hits, flops, data"/>
+    <meta name="author" content="Mark Rivera"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="\bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <section class="container" id="main_container">
+        <div class="form-group row" id="searchBar">
+        <input type="search" class="col-sm-11 form-control" list="movies" id="movie_search_bar" placeholder="What movie would you like to find?">
+        <datalist id="movies">
+            <option value="Logan">Logan</option>
+            <option value="October"></option>
+        </datalist>
+        <button type="submit" class="btn btn-secondary col-sm-1"></button>
+        </div>
+        <article class="movie_card row" id="main_movie_card">
+            <section class="col-sm-7" id="text_portion">
+                <h1 id="movie_title">Title of movie goes here</h1>
+                <p id="movie_description">This is a description of the movie</p>
+            </section>
+            <div class="col-sm-1"></div>
+            <section class="col-sm-4 align-self-center" id="img_portion">
+            <img class="img-fluid" id="movie_poster" alt="Movie Poster from search">
+            </section>
+        </article>
+    </section>
+<script type="text/javascript" src="jquery-3.2.1.js"></script>
+<script type="text/javascript" src="java.js"></script>
+</body>
+</html>
