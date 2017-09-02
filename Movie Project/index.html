@@ -10,15 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="\bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="jquery-ui.min.css">
 </head>
 <body>
     <section class="container" id="main_container">
         <div class="form-group row" id="searchBar">
         <input type="search" class="col-sm-11 form-control" list="movies" id="movie_search_bar" placeholder="What movie would you like to find?">
+<!--
         <datalist id="movies">
             <option value="Logan">Logan</option>
             <option value="October"></option>
         </datalist>
+-->
         <button type="submit" class="btn btn-secondary col-sm-1"></button>
         </div>
         <article class="movie_card row" id="main_movie_card">
@@ -33,6 +36,7 @@
         </article>
     </section>
 <script type="text/javascript" src="jquery-3.2.1.js"></script>
+<script src="jquery-ui.min.js"></script>
 <script type="text/javascript" src="java.js"></script>
 </body>
 </html>
